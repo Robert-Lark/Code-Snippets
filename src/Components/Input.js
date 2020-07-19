@@ -6,7 +6,7 @@ return (
 	<label htmlFor="name">
 		{props.label}
 		<input className="submissionfield" {...props} />
-		<p>{props.errors[props.name]}</p>
+		<p className="error">{props.errors[props.name]}</p>
 	</label>
 );
 }
