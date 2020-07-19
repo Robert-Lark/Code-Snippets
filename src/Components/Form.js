@@ -4,29 +4,13 @@ import styled from "styled-components";
 import * as Yup from "yup";
 
 function Form() {
-	const FormWrapper = styled.div`
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		height: 100vh;
-	`;
-	const Form = styled.div`
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: space-around;
-		height: 100vh;
-	`;
 	const FormP = styled.p`
 		font-family: imperial;
 		font-size: 2rem;
 		margin-top: 20px;
 		margin-bottom: -20px;
 	`;
-	const FormH1 = styled.h1`
-		margin-top: 10%;
-		margin-bottom: -0.1%;
-	`;
+
 	const defaultState = {
 		language: "",
 		uses: "",
